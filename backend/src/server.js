@@ -8,7 +8,8 @@ const app = express();
 const port = process.env.PORT || 3001
     app.use(cors(
     {
-         // origin:'http://localhost:5173'
+         origin:'https://mernexpensetracker-1.onrender.com/',
+        credentials:true
     }
 ))
 
