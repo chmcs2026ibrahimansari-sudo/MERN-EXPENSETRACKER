@@ -8,8 +8,8 @@ const app = express();
 const port = process.env.PORT || 3001
     app.use(cors(
     {
-         origin:'https://mernexpensetracker-1.onrender.com',
-        credentials:true
+        //  origin:'https://mernexpensetracker-1.onrender.com',
+        // credentials:true
     }
 ))
 
